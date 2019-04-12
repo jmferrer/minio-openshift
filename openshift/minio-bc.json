@@ -11,7 +11,7 @@
             "labels": {
                 "shared": "true"
             },
-            "name": "rhel7"
+            "name": "centos7"
         },
         "spec": {
             "lookupPolicy": {
@@ -78,7 +78,7 @@
           "dockerStrategy": {
             "from": {
               "kind": "ImageStreamTag",
-              "name": "rhel7:7.5-433"
+              "name": "centos7:latest"
             }
           }
         },
