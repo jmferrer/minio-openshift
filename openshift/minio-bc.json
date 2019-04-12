@@ -21,10 +21,10 @@
                 {
                     "from": {
                         "kind": "DockerImage",
-                        "name": "registry.access.redhat.com/rhel7/rhel:7.5-433"
+                        "name": "centos7:latest"
                     },
                     "importPolicy": {},
-                    "name": "7.5-433"
+                    "name": "latest"
                 }
             ]
         }
